@@ -1,6 +1,8 @@
 name: Unsigned IPA
 on:
   workflow_dispatch:
+  push:
+    branches: [ipa-build]
 
 permissions:
   contents: read
